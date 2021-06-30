@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from siteapp import views 
 
 urlpatterns = [
+    path('Covid19',views.covid19, name="covid19"),
     path('admin/', admin.site.urls),
+    
 ]

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19</title>
+    <link rel="stylesheet" href="{% static 'CSS/index.css' %}">
+</head>
+<body>
+<div class="Barra" role="navigation">
+    <div class="Contenido">
+        <a id="logo-header" href="/Covid19">
+             <span class="logo">Covid-19</span>
+             <span class="place">Fusagasugá, Colombia.</span>
+        </a>
+        <img class="img1" src="{% static 'img/logo.png' %}" alt="Logo">
+        <nav class="menu">
+            <ul>
+              <li><a class="incio" href="#">Inicio</a></li>
+              <li><a class="Estadisticas"  href="#">Estadisticas</a></li>
+              <li><a class="Sintomas" href="#">Sintomas</a></li>
+            </ul>
+          </nav>
+    </div>
+</div>
+
+
+</body>
+</html>
