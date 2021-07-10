@@ -1,0 +1,70 @@
+/*Estilos para el bloque de las cajas*/
+.cajas{
+    margin: 15px;
+    
+}
+
+/* Estilo de la caja 1*/
+.caja1{
+    background-color: rgba(157,187,174,0.8);
+    width: 49%;
+    border-radius: 20px;
+    float: left;
+
+}
+
+.img2{
+    width: 51%;
+    padding: 4% 0 0 0px; 
+    opacity: 0.9;
+}
+
+.mund{
+    position: absolute;
+    font-size: 1.7em;
+    font-family: cursive;
+    text-shadow: 4px 4px 5px gray;
+    top: 120px;
+    color:#789a0b;
+}
+
+.con{
+    position: absolute;
+    font-size: 1.5em;
+    font-family: monospace;
+    top: 250px;
+    color:#344266;
+}
+
+
+.mue{
+    position: absolute;
+    font-size: 1.5em;
+    font-family: monospace;
+    top: 300px;
+    color:#344266;
+}
+
+/*Estilo de la caja 2*/
+.caja2{
+    background-color: rgba(157,187,174,0.8);
+    width: 49%;
+    border-radius: 20px;
+    float: right;
+    
+}
+
+.img3{
+    width: 38%;
+    padding: 4% 0 0 0px; 
+    opacity: 0.9;
+}
+
+.colom{
+    position: absolute;
+    font-size: 1.7em;
+    font-family: cursive;
+    text-shadow: 4px 4px 5px gray;
+    top: 120px;
+    color:#789a0b;
+}

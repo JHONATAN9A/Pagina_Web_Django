@@ -1,6 +1,14 @@
 /* Estilo de toda la pagina*/
 body {
+	background-size: 100% 400%;
+	background-image: url("../img/fondo.jpg");
 	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0; 
+	font-size: 1em;
+	line-height: 1.5em;
+
+		
 }
 
 /* Estilo para el logo*/
@@ -15,12 +23,10 @@ body {
     background: #188FA7;
 	height: 80px;
 }
-
 /* Estilo del logo de la pagina*/
-
 #logo-header {
 	float: left;
-	padding: 10px 0 0 20px;
+	padding: 25px 0 0 20px;
 	text-decoration: none;
 }
 	#logo-header:hover {
@@ -38,9 +44,10 @@ body {
 		display: block;
 		font-weight: 300;
 		font-size: 13px;
-        padding: 0px 0 0 15px;
+        padding: 0px 0 0 30px;
 		color:#ebebe6;
 	}
+
 
 /*  Estilo de las opciones de la barra superior*/
 nav {
@@ -50,7 +57,6 @@ nav {
 		margin: 0;
 		padding: 0;
 		list-style:none
-		padding-right: 20px;
 	}
 	
 		nav ul li {
@@ -68,3 +74,4 @@ nav {
 				nav ul li a:hover {
 					background: #33b7d1;
 				}
+

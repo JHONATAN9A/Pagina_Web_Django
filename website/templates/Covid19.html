@@ -8,25 +8,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid-19</title>
     <link rel="stylesheet" href="{% static 'CSS/index.css' %}">
+    <link rel="stylesheet" href="{% static 'CSS/index2.css' %}">
+    
 </head>
-<body>
-<div class="Barra" role="navigation">
+<body >
+ <div class="Barra" role="navigation">
     <div class="Contenido">
         <a id="logo-header" href="/Covid19">
-             <span class="logo">Covid-19</span>
-             <span class="place">Fusagasugá, Colombia.</span>
+            <span class="logo">Covid-19</span>
+            <span class="place">SARS-CoV-2</span>
         </a>
         <img class="img1" src="{% static 'img/logo.png' %}" alt="Logo">
         <nav class="menu">
             <ul>
-              <li><a class="incio" href="#">Inicio</a></li>
-              <li><a class="Estadisticas"  href="#">Estadisticas</a></li>
-              <li><a class="Sintomas" href="#">Sintomas</a></li>
+                <li><a class="incio" href="#">Inicio</a></li>
+                <li><a class="Estadisticas"  href="#">Estadisticas</a></li>
+                <li><a class="Sintomas" href="#">Sintomas</a></li>
             </ul>
-          </nav>
+        </nav>
     </div>
+ </div>
+ <div class="cajas" role="">
+     <div class="caja1">
+        <img class="img2" src="{% static 'img/mundo.png' %}" alt="Logo">
+        <span class="mund">Estadistica Mundial</span>
+        <span class="con">Contagiados:182'009.062</span>
+        <span class="mue">Muertes:3'941.475</span>
+     </div>
+    <div class="caja2">
+        <img class="img3" src="{% static 'img/colombia.png' %}" alt="Logo">
+        <span class="colom">Estadisticas  en Colombia</span>
+        <span class="con">Contagiados:4'213.074</span>
+        <span class="mue">Muertes:105,934</span>
+    </div>    
 </div>
-
-
 </body>
 </html>
